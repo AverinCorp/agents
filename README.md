@@ -1,6 +1,6 @@
 # Averin AI Agents
 
-![Averin](averin.png)
+![Averin](./assets/averin.png)
 
 A comprehensive collection of specialized AI agent prompts and configurations for software development, articles writing, DevOps, security, architecture, and content creation workflows.
 
