@@ -1,0 +1,193 @@
+{
+  "main": {
+    "id": "47e0b16ef4fa8e04",
+    "type": "split",
+    "children": [
+      {
+        "id": "cd41dc07e050733b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eb999d964ae98c35",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Comparing Nullability Handling CSharp vs Haskell.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Comparing Nullability Handling CSharp vs Haskell"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c31f1bd5caf0cc89",
+    "type": "split",
+    "children": [
+      {
+        "id": "151f05e4e58798ab",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c773e536ef0847f8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "eacd5b04f0e6816b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "e13b7018549a4ef7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "9f00b4f103261fa2",
+    "type": "split",
+    "children": [
+      {
+        "id": "208980f9c9ea2381",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "796b1681c230b25a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Comparing Nullability Handling CSharp vs Haskell.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Comparing Nullability Handling CSharp vs Haskell"
+            }
+          },
+          {
+            "id": "48a3f2669a23f81e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Comparing Nullability Handling CSharp vs Haskell.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Comparing Nullability Handling CSharp vs Haskell"
+            }
+          },
+          {
+            "id": "7c4cc7ba25494b3a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d6c164a0b128096e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "31bf106bbf9250af",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Comparing Nullability Handling CSharp vs Haskell.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Comparing Nullability Handling CSharp vs Haskell"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "eb999d964ae98c35",
+  "lastOpenFiles": [
+    "copilot/agents/newsletter_content_specialist.agent.md",
+    "copilot/agents/csharp_specialist.agent.md",
+    "Comparing Nullability Handling CSharp vs Haskell.md"
+  ]
+}
