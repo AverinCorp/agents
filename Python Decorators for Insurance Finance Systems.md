@@ -81,8 +81,8 @@ print(f"Premium: ${premium:.2f}")
 
 **Output:**
 ```
-[AUDIT] 2025-12-10T14:20:44 - Calling calculate_premium
-[AUDIT] 2025-12-10T14:20:44 - Completed calculate_premium
+[AUDIT] 2025-12-10T14:20:44.123456 - Calling calculate_premium
+[AUDIT] 2025-12-10T14:20:44.125789 - Completed calculate_premium
 Premium: $117.00
 ```
 
@@ -114,11 +114,15 @@ def require_permission(required_permissions: Set[str]) -> Callable:
         
     Returns:
         Decorator function
+        
+    Note:
+        In production, user_permissions should be obtained from a secure
+        session or context manager rather than passed as a parameter.
     """
     def decorator(func: Callable) -> Callable:
         @wraps(func)
         def wrapper(*args: Any, **kwargs: Any) -> Any:
-            # In real systems, get user permissions from session/context
+            # In real systems, get user permissions from secure session/context
             user_permissions = kwargs.get('user_permissions', set())
             
             if not required_permissions.issubset(user_permissions):
@@ -198,8 +202,8 @@ def monitor_performance(threshold_seconds: float = 1.0) -> Callable:
 @monitor_performance(threshold_seconds=0.5)
 def calculate_policy_risk_score(policy_data: dict) -> float:
     """Calculate comprehensive risk score for insurance policy."""
-    # Simulate complex calculation
-    time.sleep(0.7)
+    # Simulate complex calculation (in production, this would be actual computation)
+    time.sleep(0.7)  # Demo only - avoid time.sleep() in real async contexts
     return 0.65
 
 
@@ -273,9 +277,9 @@ class ExternalAPIError(Exception):
 )
 def fetch_credit_score(ssn: str) -> int:
     """Fetch credit score from external credit bureau API."""
-    # Simulate occasional API failures
+    # Simulate occasional API failures for demonstration
     import random
-    if random.random() < 0.6:  # 60% chance of failure for demo
+    if random.random() < 0.3:  # 30% failure rate (exaggerated for demo)
         raise ExternalAPIError("Credit bureau API temporarily unavailable")
     return 720
 
